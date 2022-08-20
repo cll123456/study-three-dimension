@@ -1,0 +1,6 @@
+node_modules
+.DS_Store
+vue3-analysis/**/dist
+dist-ssr
+*.local
+dist
