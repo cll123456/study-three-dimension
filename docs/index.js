@@ -77,7 +77,7 @@ const autoGenrateSlidebarJson = (dirName, title, assetsDirName = 'assets') => {
   let obj = {
     items: sidebarItems,
     collapsible: true,
-    title: title
+    text: title
   }
   slideBarJson[index] = obj
   fs.writeFileSync(resolve(`./docs/slidebar.json`), JSON.stringify(slideBarJson))
